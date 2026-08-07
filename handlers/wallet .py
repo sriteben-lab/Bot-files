@@ -35,7 +35,7 @@ async def wallet(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     message = f"""
-💼 *QUANTRO WALLET*
+💼 *NEBUMINE PRO WALLET*
 
 ━━━━━━━━━━━━━━
 
