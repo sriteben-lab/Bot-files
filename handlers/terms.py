@@ -33,7 +33,7 @@ async def terms(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 1️⃣1️⃣ Fraudulent activities, fake deposits or abuse of the referral system may result in account suspension.
 
-1️⃣2️⃣ Quantro reserves the right to modify platform policies whenever necessary.
+1️⃣2️⃣ Nebumine pro reserves the right to modify platform policies whenever necessary.
 """
 
     await update.message.reply_text(
