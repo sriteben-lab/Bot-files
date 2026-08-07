@@ -11,7 +11,7 @@ async def privacy(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 Your privacy is important to us.
 
-We collect only the information required to operate your Quantro account safely.
+We collect only the information required to operate your Nebumine pro account safely.
 
 ━━━━━━━━━━━━━━━━━━
 
@@ -50,7 +50,7 @@ Your deposits, withdrawals and mining activities are securely recorded to protec
 
 ━━━━━━━━━━━━━━━━━━
 
-By using Quantro Cloud Mining, you agree to this Privacy Policy.
+By using Nebumine pro Cloud Mining, you agree to this Privacy Policy.
 """
 
     await update.message.reply_text(
