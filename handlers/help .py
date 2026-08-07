@@ -7,7 +7,7 @@ from keyboards import help_menu
 async def help_center(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(
-        "📚 *Quantro Help Center*\n\n"
+        "📚 *Nebumine pro Help Center*\n\n"
         "Select an option below.",
         parse_mode="Markdown",
         reply_markup=help_menu,
