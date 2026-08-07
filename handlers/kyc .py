@@ -83,7 +83,7 @@ async def submit_kyc(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "🪪 *Know Your Customer (KYC) Verification*\n\n"
         "*Step 1 of 3*\n\n"
         "Please enter your *Full Name* exactly as it appears on:\n\n"
-        "• Your Quantro registration\n"
+        "• Your Nebumine pro registration\n"
         "• Your government-issued identity document\n\n"
         "The names must match exactly.",
         parse_mode="Markdown",
