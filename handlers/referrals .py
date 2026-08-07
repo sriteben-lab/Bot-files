@@ -15,7 +15,7 @@ from keyboards import (
 
 from config import ADMIN_ID
 
-BOT_USERNAME = "Quantro_networkproBot"
+BOT_USERNAME = "NebumineCloud_miningBot"
 
 
 async def referrals(update: Update, context: ContextTypes.DEFAULT_TYPE):
