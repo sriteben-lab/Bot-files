@@ -27,7 +27,7 @@ async def vip_support(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # ==========================
 
     status = await update.message.reply_text(
-        "🔄 Connecting to Quantro Pro Customer Support..."
+        "🔄 Connecting to Nebumine pro Customer Support..."
     )
 
     await asyncio.sleep(1)
@@ -86,9 +86,9 @@ async def vip_support(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 Hello *{first_name}* 👋
 
-Welcome to *Quantro Pro*.
+Welcome to *Nebumine pro*.
 
-My name is *Quantro Customer Support*.
+My name is *Nebumine pro Customer Support*.
 
 I have been assigned as your dedicated Customer Support Representative and I'll personally assist you throughout your Quantro Pro journey.
 
@@ -96,7 +96,7 @@ I have been assigned as your dedicated Customer Support Representative and I'll 
 
 👤 *Representative*
 
-Quantro Customer Support 
+Nebumine pro Customer Support 
 
 🆔 *Representative ID*
 
@@ -146,7 +146,7 @@ Your dedicated representative can assist you with:
 
 🔒 *Security Reminder*
 
-For your protection, official Quantro Pro representatives will **never** request:
+For your protection, official Nebumine pro representatives will **never** request:
 
 • Telegram Password
 
@@ -166,7 +166,7 @@ Always communicate only through the official support channel below.
 
 Your success is our priority.
 
-Thank you for choosing *Quantro Pro*.
+Thank you for choosing *Nebumine pro*.
 """,
         parse_mode="Markdown",
         reply_markup=keyboard,
