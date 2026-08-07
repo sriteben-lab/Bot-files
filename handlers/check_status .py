@@ -49,7 +49,7 @@ async def check_status(
 
 ━━━━━━━━━━━━━━
 
-Thank you for using Quantro Network.
+Thank you for using Nebumine pro.
 """
 
     await update.message.reply_text(
