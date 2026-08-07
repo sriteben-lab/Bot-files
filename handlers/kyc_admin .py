@@ -42,7 +42,7 @@ async def approve_kyc(
             "🎉 *KYC Approved!*\n\n"
             "Congratulations!\n\n"
             "Your KYC verification has been approved.\n"
-            "You now have full access to Quantro Network."
+            "You now have full access to Nebumine pro."
         ),
         parse_mode="Markdown",
     )
