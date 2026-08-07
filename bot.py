@@ -117,6 +117,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             pass
 
     await show_main_menu(update, context)
+
+async def menu_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await show_main_menu(update, context)
     
 # =====================================
 # HELP COMMAND
@@ -168,8 +171,14 @@ def main():
 
     app = Application.builder().token(BOT_TOKEN).build()
 
+    # =====================================
+    # SLASH COMMANDS
+    # =====================================
+
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
+    app.add_handler(CommandHandler("menu", menu_command))
+    app.add_handler(CommandHandler("wallet", wallet))
     
     # =====================================
     # UNIVERSAL BACK BUTTON
