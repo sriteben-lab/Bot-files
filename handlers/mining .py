@@ -108,7 +108,7 @@ async def mining_dashboard(
 
     await update.message.reply_text(
         f"""
-⛏ *Quantro Cloud Mining*
+⛏ *Nebumine pro Cloud Mining*
 
 ━━━━━━━━━━━━━━━━━━
 
