@@ -125,7 +125,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(
-        "ℹ️ Quantro Network Bot\n\n"
+        "ℹ️ Nebumine pro Bot\n\n"
         "Use the menu buttons to access the available features."
     )
 
@@ -288,7 +288,7 @@ def main():
     select_btc,
     )
     
-    print("✅ Quantro Network Bot Started")
+    print("✅ Nebumine pro Bot Started")
 
     app.run_polling()
 
