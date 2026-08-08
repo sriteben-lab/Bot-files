@@ -29,7 +29,7 @@ from handlers.profile import profile_handler
 from handlers.wallet import wallet
 from handlers.wallet import wallet_handler
 from handlers.fund_wallet import fund_wallet, fund_wallet_handler
-from handlers.deposit import deposit_handler, select_btc
+from handlers.deposit import deposit_handler, select_btc, deposit_command
 from handlers.submit_tx import submit_tx_handler
 from handlers.history import history_handler
 from handlers.history import withdrawal_history_handler
@@ -179,6 +179,7 @@ def main():
     app.add_handler(CommandHandler("help", help_command))
     app.add_handler(CommandHandler("menu", menu_command))
     app.add_handler(CommandHandler("wallet", wallet))
+    app.add_handler(deposit_handler)
     
     # =====================================
     # UNIVERSAL BACK BUTTON
